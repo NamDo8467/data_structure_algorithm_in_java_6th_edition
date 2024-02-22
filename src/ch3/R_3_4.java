@@ -1,5 +1,5 @@
 package ch3;
-// Solution at line 24 and 25
+// Solution at line 26 and 27
 // I check if either X or O has already won, and if that is the case then throw an exception with a message indicating that the game is over
 
 public class R_3_4{
