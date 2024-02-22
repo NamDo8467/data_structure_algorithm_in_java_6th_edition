@@ -1,14 +1,15 @@
 package ch3;
-// Solution at line 26 and 27
+// Solution at line 27 and 28
 // I check if either X or O has already won, and if that is the case then throw an exception with a message indicating that the game is over
 
-public class R_3_4{
+//If the class doesn't have visibility modifier, it will be set to 'private' by default
+class Game {
 	public static final int X = 1, O = -1; // players
 	public static final int EMPTY = 0; // empty cell
 	private int board[ ][ ] = new int[3][3]; // game board
 	private int player; // current player
 	/** Constructor */
-	public R_3_4() { clearBoard( ); }
+	public Game() { clearBoard( ); }
 	/** Clears the board */
 	public void clearBoard( ) {
 	for (int i = 0; i < 3; i++)
@@ -65,9 +66,13 @@ public class R_3_4{
 		 }
 		 return sb.toString( );
 	}
+}
+public class R_3_4{
+	
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		R_3_4 game = new R_3_4();
+		Game game = new Game();
 		try {
 			game.putMark(1, 1); 	game.putMark(1, 2);
 			game.putMark(0, 1);     game.putMark(0, 2);
