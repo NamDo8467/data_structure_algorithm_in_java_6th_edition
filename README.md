@@ -1,1 +1,1 @@
-# data_structure_algorithm_in_java_6th_edition
+# Solutions to exercises in Data Structures & Algorithms in Java 6th edition
