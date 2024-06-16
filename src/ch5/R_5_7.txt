@@ -1,0 +1,6 @@
+Public harmonicNumber(int n):
+	if n == 1:
+		return n
+	int res = 1/n	
+	res += harmonicNumber(n-1)
+	return res
