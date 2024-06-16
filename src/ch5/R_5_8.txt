@@ -31,5 +31,5 @@ function convertStringToIntRecursive(input:str, start:int, end:int, placeValue:i
     res += a
     return res
     
-a = convertStringToIntRecursive("12345678", 7, 0, 1) // this algorithm starts from right to left. Add all the values from right to left with the correct 							// place value
+a = convertStringToIntRecursive("12345678", 7, 0, 1) // this algorithm starts from right to left. Add all the values from right to left with the correct place value
 print(a)
