@@ -1,3 +1,5 @@
+//This is just pseudo-code for the algorithm, it may have syntax errors
+
 Public harmonicNumber(int n):
 	if n == 1:
 		return n
